@@ -1,5 +1,6 @@
 import Footer from "../components/Footer";
 import LeadForm from "../components/LeadForm";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -8,9 +9,9 @@ const Home = () => {
         <nav className="navbar">
           <h2>LeadDesk</h2>
 
-          <a href="/login">
+          <Link href="/login">
             Admin Login
-          </a>
+          </Link>
         </nav>
 
         <div className="hero-content">
