@@ -9,7 +9,7 @@ const Home = () => {
         <nav className="navbar">
           <h2>LeadDesk</h2>
 
-          <Link href="/login">
+          <Link to="/login">
             Admin Login
           </Link>
         </nav>
